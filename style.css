@@ -211,6 +211,7 @@ section{
     font-size: 2.5rem;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    color: black;
 }
 .socials i:hover{
     transform: scale(1.1);
