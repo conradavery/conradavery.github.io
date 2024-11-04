@@ -6,8 +6,10 @@ const scrollDistance = header.offsetHeight;
 function toggleStickyHeader() {
     if (window.scrollY > scrollDistance) {
         header.classList.add('sticky');
+        navLinks.classList.add('rounded');
     } else {
         header.classList.remove('sticky');
+        navLinks.classList.remove('rounded');
     }
 }
 
