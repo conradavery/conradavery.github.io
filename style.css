@@ -43,7 +43,7 @@
     top: 1rem;
     left: 50%;
     transform: translate(-50%);
-    width: auto;
+    width: 70%;
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
 }
@@ -607,7 +607,9 @@ footer ul li a{
 
 }
 @media(max-width:1000px){
-    
+    .sticky{
+        width: 85%;
+    }
     .about-title{
         font-size: 3rem;
     }
@@ -727,6 +729,9 @@ footer ul li a{
 
 }
 @media(max-width:600px){
+    .sticky{
+        width: 85%;
+    }
     .projects-card{
         max-width: 100%;
     }

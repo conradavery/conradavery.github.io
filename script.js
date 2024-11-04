@@ -1,7 +1,7 @@
 const menuIcon = document.querySelector('#menu-icon');
 const navLinks = document.querySelector('.nav-links');
 const header = document.querySelector('.header');
-const scrollDistance = 500;
+const scrollDistance = header.offsetHeight;
 
 function toggleStickyHeader() {
     if (window.scrollY > scrollDistance) {
