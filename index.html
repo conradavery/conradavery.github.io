@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="icon" href="assets/Favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Conrad Avery</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about-me">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#extra">Extra</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <a href="https://github.com/conradavery" target="_blank">
+            <button class="visit-btn">Visit Github</button>
+            </a> 
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="assets/ProfilePic.jpg" alt="">
+            <div class="info-box">
+                <div class="text">
+                    <h3>
+                        Hi, I'm
+                    </h3>
+                    <h1>Conrad Avery</h1>
+                    <span id="dynamic-text">Student</span><span class="cursor">&nbsp;</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="assets/AVERY_CONRAD_RESUME.pdf" download="AVERY_CONRAD_RESUME.pdf">
+                    <div class="btn">Download Resume</div>
+                    </a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/conradavery" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/conrad-avery-937737294/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me" class="about-me section">
+        <div class="about-me-info">
+            <div class="about-me-text">
+                <h2 class="about-title">About Me</h2>
+                <p>Hi! Thank you for checking out my website. My name is Conrad Avery, and I’m a student at San Jose State University with a deep passion for learning and service. I’m currently majoring in Computer Science and Linguistics, where I learn about the coding and problem solving with an emphasis on linguistic patterns and language.
+                    <br><br>My journey in the coding world began with basic programming, and over the years, I’ve progressed to building complex projects that reflect my love for technology and innovation. Whether I’m working on personal coding projects, teaching fundamentals to younger students, or exploring linguistic patterns, I strive to bridge the gap between human language and computational systems.
+                    <br><br>Beyond academics, I am also deeply committed to leadership and community service. My experiences in ROTC, fraternity leadership, and volunteer roles have taught me the importance of dedication, resilience, and making a positive impact. Thank you for visiting I hope you enjoy exploring my work and learning a bit more about my journey!
+                </p>
+            </div>
+            <div class="about-me-img">
+                <div class="img-container">
+                    <img src="assets/DSC00171-2.jpg" alt="">
+                    <div class="rectangle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience section">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-info">
+            <div class="expereince-grid">
+                <div class="education">
+                    <div class="education-grid">
+                        <div class="education-title">
+                            <h2>Education</h2>
+                        </div>
+                        <div class="education-text">
+                            <img src="assets/San-Jose-State-Spartans-logo.png"alt="">
+                            <h2><a href="https://www.sjsu.edu/" target="_blank">San Jose State University</a></h2>
+                            <h4>Expected Graduation Spring 2027</h4>
+                            <p>I'm currently working toward a Bachelor of Science in Computer Science at San Jose State University, 
+                                where I'm gaining amazing experience 
+                                and deepening my understanding of technology and language 
+                                at a university recently ranked #4 in the best public universities!</p>
+                                <br>
+
+                                 <img src="assets/skku.png" alt="">
+                                <h2><a href="https://www.skku.edu/eng/About/pr/greeting.do" target="_blank">Sungkyunkwan University - Seoul, South Korea</a></h2>
+                                <h4>Summer 2024</h4>
+                                <p>During my study abroad in South Korea, I had the privilege of researching sustainable computer technology at the renowned Sungkyunkwan University. This experience broadened my global perspective and enriched my understanding of how technology intersects with cultural and societal values.</p>
+                                <hr/>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="projects">
+                    <div class="projects-grid">
+                        <div class="projects-title">
+                            <h2>Projects</h2>
+                            
+                        </div>
+                        <div class="projects-text">
+                            <div class="projects-card">
+                                <img src="assets/puzzle.png" alt="">
+                                <h3>SJSU Events Extension</h3>
+                                <p>A Chrome Extension that displays the daily events from my university</p>
+                                <a href="https://github.com/conradavery/SjsuEventsExtension" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                            <div class="projects-card">
+                                <img src="assets/speech-synthesis-removebg-preview.png" alt="">
+                                <h3>LLM Speech to Text</h3>
+                                <p>Python program that uses a LLM to use Text to Speech and Speech to Text</p>
+                                <a href="https://github.com/conradavery/TextToSpeechAI" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                            <div class="projects-card">
+                                <img src="assets/sentiment-analysis.png" alt="">
+                                <h3>AI Sentiment Analysis</h3>
+                                <p>A program that uses Open AI's API to detect sentiment within texts between couples</p>
+                                <a href="https://github.com/conradavery/OpenAISentimentAnalysis" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                            <hr>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="skills">
+                    <div class="skills-grid">
+                        <div class="skills-title">
+                            <h2>Skills</h2>
+                        </div>
+                        
+                        <div class="skills-block">
+                            <div class="grid-card">
+                                <img src="assets/java.webp" alt="">
+                                <br>
+                                <span>Java</span>
+                                
+                            </div>
+                            <div class="grid-card">
+                                <img src="assets/Python.svg" alt="">
+                                <br>
+                                <span>Python</span>
+                            </div>
+                            <div class="grid-card">
+                                <img src="assets/c++.svg" alt="">
+                                <br>
+                                <span>C++</span>
+                            </div>
+                            <div class="grid-card">
+                                <img src="assets/html.svg" alt="">
+                                <br>
+                                <span>HTML</span>
+                            </div>
+                            <div class="grid-card">
+                                <img src="assets/css.svg" alt="">
+                                <br>
+                                <span>CSS</span>
+                            </div>
+                            <div class="grid-card">
+                                <img src="assets/javascript.svg" alt="">
+                                <br>
+                                <span>Javascript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="extra" class="extra section">
+        <h2 class="section-title">Extra Curriculars</h2>
+        <div class="extra-info">
+                <div class="grid-card-extra">
+                    <img src="assets/KoreaProfilePic.jpg" alt="">
+                    <h3>Travel</h3>
+                    <p>Following my study abroad experience in Korea, I took on the role of global ambassador for my university. I now share my journey to inspire others to explore international education, emphasizing the value of cultural exchange and global connections in personal and academic growth.</p>
+                </div>
+                <div class="grid-card-extra">
+                    <img src="assets/ArmyPic.JPEG" alt="">
+                    <h3>ROTC</h3>
+                    <p>As a contracted cadet of Army ROTC, I am developing leadership skills and military discipline while preparing for a future in service. This experience has not only strengthened my commitment to excellence and teamwork but has also provided me with valuable training in tactical and strategic thinking. </p>
+                </div>
+                <div class="grid-card-extra">
+                    <img src="assets/GymProfilePic.jpg" alt="">
+                    <h3>Working Out</h3>
+                    <p>Working out and keeping myself fit are things that I emphasize deeply every day. Staying active keeps me physically strong and boosts my mental clarity and focus. For me, it’s a way to challenge myself, set meaningful goals, and stay committed to personal growth.</p>
+                </div>
+        </div>
+
+    </section>
+
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+            <div class="grid-card">
+                <a href="tel:+5109638212">
+                    <i class="fa-solid fa-phone"></i>
+                    <br/>
+                    <span>My Phone Number</span>
+                    <h3>(510)-963-8212</h3>
+                </a>
+            </div>
+            <div class="grid-card">
+                <a href="mailto:conradmavery@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <br/>
+                    <span>My Email</span>
+                    <h3>conradmavery@gmail.com</h3>
+                </a>
+            </div>
+            
+            <div class="grid-card">
+                <a href="https://www.linkedin.com/in/conrad-avery-937737294/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <br>
+                    <span>My LinkedIn</span>
+                    <h3>Conrad Avery</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about-me">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#extra">Extra</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">All rights reserved | @Conrad Avery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
